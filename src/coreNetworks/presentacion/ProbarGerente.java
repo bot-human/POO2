@@ -34,7 +34,7 @@ public class ProbarGerente {
         Empleado a1 = new Empleado();
         //Gerente g5 = (Gerente)
 
-        Empleado a2 = new Vendedor(1,"Dani Romero", "85421L"3520,5,200,"Ventas");
+        Empleado a2 = new Vendedor(1,"Dani Romero", "85421L",3520,5,200,"Ventas");
 
         System.out.println(ePolimodismo.getIdEmpleado());
         System.out.println();

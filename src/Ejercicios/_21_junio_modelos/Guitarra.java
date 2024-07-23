@@ -1,18 +1,18 @@
 package Ejercicios._21_junio_modelos;
 
 public class Guitarra extends InstrumentoMusical{
-
     private String tipoCuerdas;
 
     @Override
-    public String emiteSonido(){
-        return "bam bam";
+    public String emiteSonido() {
+        return "gli gli";
     }
 
     public Guitarra() {
     }
 
-    public Guitarra(String tipoCuerdas) {
+    public Guitarra(String marca, String tipoCuerdas) {
+        super(marca);
         this.tipoCuerdas = tipoCuerdas;
     }
 
